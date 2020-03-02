@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Inner Test Ruleset">
+	<description>Ruleset in child directory</description>
+
+	<!-- this folder is resolvable from this config's directory -->
+	<file>./bar</file>
+
+	<rule ref="PSR2" />
+</ruleset>
