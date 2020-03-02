@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ruleset name="Outer Test Ruleset">
+	<description>Ruleset in top-level directory</description>
+
+	<!-- this path is not resolvable from this directory, on purpose -->
+	<file>./bar</file>
+
+	<rule ref="PSR2" />
+</ruleset>
